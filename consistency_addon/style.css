@@ -1,0 +1,349 @@
+.new_price_details_right-v2.v3.v4,
+.ptr-grid-row-v2,
+.new_price_details_inr.swiper,
+.ptr-grid-row-v2 .slick-list {
+  overflow: visible !important;
+}
+
+.prt-col-grid-v2 {
+  width: 310px;
+  flex-shrink: 0;
+}
+
+.new_price_details_inr .swiper-pagination,
+.ptr-grid-row-v2 ul.slick-dots {
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  z-index: 2;
+  line-height: 1;
+}
+
+.new_price_details_inr .swiper-pagination .swiper-pagination-bullet,
+.ptr-grid-row-v2 ul.slick-dots li {
+  margin: 0px 8px;
+}
+
+.new_price_details_inr .swiper-pagination .swiper-pagination-bullet,
+.ptr-grid-row-v2 ul.slick-dots li button {
+  width: 24px;
+  height: 4px;
+  border-radius: 6px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.4s ease;
+}
+
+.new_price_details_inr
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.ptr-grid-row-v2 ul.slick-dots li.slick-active button {
+  background: var(--money-green);
+  width: 64px;
+}
+
+.tdfy-style-absolute-glow,
+.prt-card-faces[aria-hidden="true"] .prt-pp-tag-v2 {
+  opacity: 0;
+}
+
+.tdfy-style-btn.price-btn-v3 .tdfy-style-absolute-glow {
+  width: 20%;
+}
+
+.new_pricing_tab_panel {
+  width: 100%;
+}
+
+.new_pricing_tab_panel:not(.open) {
+  display: none;
+}
+
+.new_plan_select_radio_box input[type="radio"] {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  z-index: 2;
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.new_plan_select_radio_box input[type="radio"] + span {
+  padding-left: 0;
+  line-height: 24px;
+}
+
+.new_plan_select_radio_box input[type="radio"] + span:after,
+.new_plan_select_radio_box input[type="radio"] + span:before {
+  content: none;
+}
+
+.new_price_details_left .plan_select_acc_broker {
+  display: none;
+}
+
+.plan_select_acc_broker .new_plan_select_radio_box.radio_8.w-radio.disabled {
+  display: none;
+}
+
+.prt-mob-data-v2 strike {
+  opacity: 0.6;
+  margin-right: 0.25em;
+}
+
+.new_plan_select_radio_box.radio_8.v3 > * {
+  z-index: 2;
+}
+
+.new_plan_select_radio_box.radio_8.v3:after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  background: linear-gradient(95deg, #135a22 4%, #0e1910 95%);
+  z-index: 1;
+}
+
+.new_plan_select_radio_box.radio_8.v3.active:after {
+  opacity: 1;
+}
+
+.new_price_details_right {
+  border: 0;
+  background-color: transparent;
+  border-radius: 0;
+  display: block;
+  overflow: auto;
+}
+
+.new_price_details_left .prt-col {
+  width: 100%;
+}
+
+.tt_top_box {
+  background-color: #4c4b4b;
+  color: #fff;
+  font-weight: 500;
+  z-index: 5;
+  white-space: normal;
+}
+
+.tt_top_box:after {
+  border-top: 5px solid #4c4b4b;
+}
+
+.tt_top_box.short {
+  top: 0;
+  bottom: auto;
+  right: 0;
+  left: auto;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 20px;
+  margin-right: 2px;
+}
+
+.tt_top_box.short:after {
+  top: -5px;
+  margin-top: 0;
+  left: auto;
+  right: 2px;
+  border-bottom: 5px solid #4c4b4b;
+  border-top: 0;
+}
+
+.prt-col-grid-inner.selected .new_price_current.v3,
+.prt-col-grid-inner.selected .price_details_cp_tag.v3 {
+  color: var(--money-green);
+}
+
+.prt-card-shadow {
+  transform: translateX(-50%);
+  background: radial-gradient(
+    closest-side,
+    rgba(0, 0, 0, 0.78),
+    rgba(0, 0, 0, 0)
+  );
+  opacity: 0.5;
+}
+
+.sheen {
+  background: linear-gradient(
+    108deg,
+    transparent 32%,
+    rgba(255, 255, 255, 0.5) 48%,
+    rgba(255, 255, 255, 0.6) 52%,
+    transparent 68%
+  );
+  background-size: 260% 100%;
+  background-position: var(--sheen-x, 50%) 0;
+  opacity: var(--sheen, 0);
+}
+
+.ptr-head-v2 .ptr-row {
+  position: relative;
+  z-index: 2;
+}
+
+.prt-card-faces[aria-hidden="true"] {
+  pointer-events: none;
+}
+
+.ptr-bg-img2,
+.ptr-bg-img1 {
+  opacity: 0;
+}
+
+.prt-col-grid-inner-v2.selected .ptr-head-v2 .ptr-bg-img1,
+.prt-card-faces.funded .ptr-head-v2 .ptr-bg-img2 {
+  opacity: 1;
+}
+
+.prt-col-grid-v2 {
+  perspective: 1700px;
+  perspective-origin: 50% 42%;
+}
+
+.new_price_details_wrapper-v2:not(.dny_class_select):not(.dny_class_growth)
+  .new-token-offer-outer {
+  display: none;
+}
+
+.prt-card-faces.funded .prt-col-grid-inner-v2.selected {
+  background-color: #1a1a1c;
+}
+
+.prt-card-faces.funded .prt-col-grid-inner-v2 {
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background-color: #18181a;
+}
+
+.prt-card-faces.eval .prt-col-grid-inner-v2.selected {
+  background-color: #0e0e0f;
+}
+
+.prt-card-faces.eval .prt-col-grid-inner-v2 {
+  background-color: #111113;
+}
+
+.tt_tip_wrp.right .tt_top_box {
+  right: 0;
+  left: auto;
+  min-width: 155px;
+}
+
+.tt_tip_wrp.right .tt_top_box:after {
+  right: 5px;
+  left: auto;
+}
+
+@media screen and (min-width: 1281px) {
+  .new_price_details_wrapper-v2:not(.dny_class_select)
+    .new_price_details_inr.swiper {
+    pointer-events: none !important;
+  }
+
+  .new_price_details_wrapper-v2:not(.dny_class_select)
+    .new_price_details_inr.swiper
+    .prt-card-wrapper {
+    pointer-events: all !important;
+  }
+
+  .new_price_details_wrapper-v2:not(.dny_class_select)
+    .new_price_details_right-v2.v3.v4
+    .swiper-wrapper {
+    transform: none !important;
+  }
+
+  .new_price_details_wrapper-v2:not(.dny_class_select)
+    .new_price_details_right-v2.v3.v4
+    .swiper-pagination {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1241px) {
+  .new_price_details-v2.v3 {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .new_price_details_inr.swiper {
+    padding-right: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .new_price_details_inr.swiper {
+    padding-right: 24px;
+  }
+
+  .ptr-grid-row-v2 .ul.slick-dots,
+  .ptr-grid-row-v2 .slick-list {
+    padding: 0 16px !important;
+  }
+
+  .new_plan_select_radio_box.radio_8.v3.sm.rule {
+    height: 44px;
+  }
+
+  .prt-card-faces.eval .prt-col-v2.prt-mob-col .prt-mob-label-v2,
+  .prt-card-faces.eval .prt-col-v2.prt-mob-col .prt-mob-data-v2 {
+    width: auto;
+    max-width: none;
+    flex: auto;
+  }
+}
+
+/* Consistency Toggle Button */
+  .consistency-toggle-box {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+    padding: 3px;
+    gap: 2px;
+    box-shadow:
+      0 0 2px 0px #000,
+      inset 0 0 2px 0px rgba(255, 255, 255, 0.07);
+  }
+
+  .consistency-toggle-opt {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #b8b1ae;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    line-height: 1;
+    height: 28px;
+    border: 1px solid transparent;
+  }
+
+  .consistency-toggle-opt:hover {
+    color: #ffffff;
+  }
+
+  .consistency-toggle-opt.active {
+    background: #373737;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+  }
